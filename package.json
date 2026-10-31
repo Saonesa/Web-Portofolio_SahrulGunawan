@@ -2,8 +2,7 @@
   "name": "portfolio-vanilla",
   "version": "1.0.0",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch",
-    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify"
+  "build": "chmod +x ./node_modules/.bin/tailwindcss && npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.6.2",
